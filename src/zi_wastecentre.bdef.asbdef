@@ -1,0 +1,13 @@
+managed implementation in class zbp_i_wastecentre unique;
+strict;
+
+define behavior for ZI_WASTECENTRE //alias <alias_name>
+persistent table ZRAPWASTECENTRE
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

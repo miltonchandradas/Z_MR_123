@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition for items to be recycle at centre'
+define service ZUI_recycle_items {
+  expose ZC_RECYCLE_ITEMS as recycle_items;
+}

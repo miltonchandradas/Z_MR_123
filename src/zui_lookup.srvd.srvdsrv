@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition for lookup table'
+define service ZUI_lookup {
+  expose ZC_LOOKUP as lookup;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition for wastecentre'
+define service ZUI_wastecentre {
+  expose ZC_LOOKUP as lookup;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'serviceDefinitionToothbrush alternatives'
+define service ZUI_TOOTHBRUSH {
+  expose ZC_TOOTHBRUSH as toothbrush;
+}
